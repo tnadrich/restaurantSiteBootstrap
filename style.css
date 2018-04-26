@@ -1,0 +1,127 @@
+#noJavaScript {
+  font-size: 20px;
+  color: red;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#222222;
+}
+#foodBackground {
+  background: url(img/foodBackground.jpeg);
+  background-attachment: fixed;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  color: #ffffff;
+  text-shadow: 1px 1px 15px #000000;
+
+}
+
+.menu {
+  width: 75%;
+  margin: auto;
+}
+.navbar {
+  padding: 10px;
+}
+.nav-link li {
+  padding-right: 20px;
+}
+.nav-link {
+    font-size: 16px !important;
+}
+.carousel-inner img {
+  width: 100%
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1 {
+  font-size: 500%;
+  text-shadow: 1px 1px 15px #000000;
+}
+.carousel-caption h3 {
+  font-size: 200%;
+  text-shadow: 1px 1px 10px #000000;
+}
+.jumbotron {
+  padding: 10px;
+}
+.padding {
+  padding-bottom: 20px;
+}
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+}
+footer {
+  background-color: #686767;
+  color: #d5d5d5;
+  padding-top: 2 rem;
+  width: 100%;
+}
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+}
+hr.my-4 {
+  border-top: 1px solid #3f3f3f;
+  width: 85%;
+}
+.display-4 {
+  padding-bottom: 10px;
+}
+.lead {
+  padding-bottom: 5px;
+}
+#menuTitle {
+  padding-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .carousel-caption {
+    top: 45%;
+  }
+  .carousel-caption h1 {
+    font-size: 300%;
+  }
+  .carousel-caption h3 {
+    font-size: 120%;
+  }
+  .display-4 {
+    font-size: 200%;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-caption {
+    top: 40%;
+  }
+  .carousel-caption h1 {
+    font-size: 200%;
+  }
+  .carousel-caption h3 {
+    font-size: 100%;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .display-4 {
+    font-size: 160%;
+  }
+}
+#beverages {
+  margin: auto;
+  padding-top: 25px;
+}
+#beverages h3 {
+  padding-bottom: 25px;
+}
+

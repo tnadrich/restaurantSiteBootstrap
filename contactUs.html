@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The American Outback</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <noscript>
+        <p id=noJavaScript>This site is best viewed with JavaScript enabled. Please enable JavaScript.</p>
+    </noscript>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">The American Outback</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav nav-pills ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contactUs.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br />
+
+<!--- Forms -->
+<div id="textleft">
+    <form action="" method="" class="form-horizontal">
+        <div class="form-group row text-right">
+            <label for="name" class="col-sm-2 col-form-label">Name:</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="name" placeholder="Please enter a first and last name." required>
+                </div>
+        </div>
+        <div class="form-group row text-right">
+            <label for="email" class="col-sm-2 col-form-label">Email:</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="email" placeholder="Valid Email Address" required>
+                </div>
+        </div>
+        <div class="form-group row text-right">
+            <label for="phone" class="col-sm-2 col-form-label">Phone:</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="phone" placeholder="XXX-XXX-XXXX" required>
+                </div>
+        </div>
+        <div class="form-group row text-right">
+            <label for="dropDown" class="col-sm-2 col-form-label">Reason for Inquiry:</label>
+                <div class="col-sm-4">
+                    <select class="form-control" id="dropDown">
+                        <option>Catering</option>
+                        <option>Private Party</option>"
+                        <option>Feedback</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+        </div>
+        <div class="form-group row text-right">
+            <label for="additionalInfo" class="col-sm-2 col-form-label">Additional Information:</label>
+                <div class="col-sm-4">
+                    <textarea class="form-control" id="additionalInfo" rows="3" placeholder="Please enter any additional information"></textarea>
+                </div>
+        </div>
+        <div class="form-group row">
+            <p class="col-sm-2" style="text-align: right">Have you ever been to the restaurant?</label>
+                <div class="col-sm-4">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="No">
+                        <label class="form-check-label" for="inlineRadio1">No</label>
+                        </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Yes">
+                        <label class="form-check-label" for="inlineRadio2">Yes</label>
+                    </div>
+                </div>
+        </div>
+        <div class="form-group row">
+            <p class="col-sm-2" style="text-align: right">Best Days to Contact You:</label>
+                <div class="col-sm-4">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineCheckBox1" value="M">
+                        <label class="form-check-label" for="inlineCheckBox1">M</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineCheckBox2" value="T">
+                        <label class="form-check-label" for="inlineCheckBox2">T</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineCheckBox3" value="W">
+                        <label class="form-check-label" for="inlineCheckBox3">W</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineCheckBox3" value="TH">
+                        <label class="form-check-label" for="inlineCheckBox4">TH</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineCheckBox3" value="F">
+                        <label class="form-check-label" for="inlineCheckBox5">F</label>
+                    </div>
+                </div>
+            </div>
+        <div class="form-group row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4 text-left">
+                <div type-"submit" class="btn btn-primary" onclick="">Send Request</div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<!--- Footer -->
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <hr class="light">
+                <h5>Our Locations</h5>
+                <hr class="light">
+                <p>(777)777-7777</p>
+                <p>866 Canyon Way</p>
+                <p>Avonde, Arizona 86023</p>
+                <br />
+                <p>(888)888-8888</p>
+                <p>483 Park Avenue (NEW)</p>
+                <p>Tucson, Arizona 85001</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <hr class="light">
+                <h5>Hours</h5>
+                <hr class="light">
+                <p>Monday: 9 AM - 8 PM</p>
+                <p>Tuesday: 9 AM - 10 PM</p>
+                <p>Wednesday: 9 AM - 8 PM</p>
+                <p>Thursday: 9 AM - 10 PM</p>
+                <p>Friday: 9 AM - 10 PM</p>
+                <p>Saturday: 11 AM - 5 PM</p>
+                <p>Closed Sunday</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <hr class="light">
+                <h5>Contact Us</h5>
+                <hr class="light">
+                <p>Feedback Appreciated!</p>
+                <p>Phone: 928-844-7868</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
